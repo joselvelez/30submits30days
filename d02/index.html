@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Theme Switcher Example</title>
+</head>
+<body data-theme="light">
+    <section>
+        <div class="container">
+            <h1>Theme Switcher Example</h1>
+            <p>This example demonstrates how to toggle different css settings using JavaScript and CSS.</p>
+            <div class="description">
+                <p>This example uses the following CSS Techniques:</p>
+                <ul class="description">
+                    <li>CSS Attributes / <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors">MDN Docs</a></li>
+                    <li>Custom CSS Properties (variables) / <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties">MDN Docs</a></li>
+                    <li>CSS ::after / <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::after">MDN Docs</a></li>
+                    <li>CSS :checked / <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:checked">MDN Docs</a></li>
+                </ul>
+            </div>
+            <button>Hello!</button>
+        </div>
+    </section>
+
+    <div class="theme-switcher">
+        <input type="checkbox" id="switcher">
+        <label for="switcher">Switch</label>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
