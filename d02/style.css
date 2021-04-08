@@ -14,6 +14,8 @@ body[data-theme="light"] {
     --color-2: white;
     --color-3: rgb(139, 94, 94);
     --color-4: rgb(80, 82, 110);
+    --links-a: rgb(10, 10, 10);
+    --links-h: rgb(139, 94, 94);
 }
 
 /* Dark Theme colors */
@@ -22,11 +24,21 @@ body[data-theme="dark"] {
     --color-2: #292c33;
     --color-3: rgb(39, 40, 42);
     --color-4: rgb(186, 186, 202);
+    --links-a: rgb(250, 245, 245);
+    --links-h: rgb(196, 220, 241);
 }
 
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--color-4);
+}
+
+a:visited {
+    color: var(--links-a);
+}
+
+a:hover {
+    color: var(--links-h);
 }
 
 section {
