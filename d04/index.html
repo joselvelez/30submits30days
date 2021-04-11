@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Accessing objects within an array with the findIndex() method</title>
+</head>
+<body>
+  
+  <div class="container">
+    <br>
+    <p>Accessing objects within an array with the findIndex() method.<p>
+    <br>
+    <div class="main">
+
+      <div class="array-data">
+          <p>Array Object:</p>
+          <br>
+          <p>[</p>
+          <p>{name: 'bob', age: 21, sex: 'male'},</p>
+          <p>{name: 'bill', age: 34, sex: 'male'},</p>
+          <p>{name: 'beth', age: 18, sex: 'female'},</p>
+          <p>{name: 'mary', age: 41, sex: 'female'},</p>
+          <p>]</p>
+      </div>
+      
+      <div class="array-objects">
+
+        <div class="obj-btns" id="obj-btns">
+            <p>Objects:</p>
+            <button id="bob" value="bob">bob</button>
+            <button id="bill" value="bill">bill</button>
+            <button id="beth" value="beth">beth</button>
+            <button id="mary" value="mary">mary</button>
+        </div>
+        <div class="obj-details" id="obj-details">
+          <br>
+          <p>Object Details:</p>
+          <br>
+          <p id='personDetails' class="person-details"></p>
+        </div>
+
+      </div>
+
+    </div>
+    
+    <br>
+    This example finds an object within an array of objects based on the 'name'
+    object property. Using the findIndex() method, the position of the object
+    within the array can be found and used to access the object directly.
+    
+  </div>
+  
+  <script src="./main.js"></script>
+</body>
+</html>
