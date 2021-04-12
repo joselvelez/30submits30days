@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>30 Days 30 Submits - Cascading Dropdown Lists with JavaScript</title>
+</head>
+<body>
+  <section>
+      <div class="container">
+        <h3>Cascading Dropdown Lists with JavaScript</h3>
+        <br>
+        <h4>Version 2: Two cascading dropdown selects where data is stored inside an array.</h4>
+        <br>
+        <div class="ddlContainers">
+            <div class="selectBox">
+                <h4>Vehical Makes</h4>
+                <br>
+                <select name="vehicleMake" id="vehicleMake"></select>
+            </div>
+            <div class="selectBox">
+                <h4>Vehical Models</h4>
+                <br>
+                <select name="vehicleModel" id="vehicleModel"></select>
+            </div>
+        </div>
+
+        <div class="description">
+            <p>This example looks the same as version 1 from day 3, where the underlying data is wrapped
+            inside an array of objects vs this example that has the data wrapped inside an array of arrays.</p>
+            <br>
+            <p>Compare the getUniqueList() functions between both. This example relies on an array index while
+            the day 3 example relies on [] notation to identify the object property.
+            </p>
+            <br>
+            <p>Usefule Reference: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_Accessors">MDN Docs: Prpoerty Accessors</a></p>
+        </div>
+
+      </div>
+  </section>
+
+  <script src="./main.js"></script>
+</body>
+</html>
