@@ -9,3 +9,4 @@ Practice HTML, CSS, JavaScript with 30 Small Examples in 30 Days
 | 04 | Array Objects using findIndex() method | [codepen](https://codepen.io/jlvelez/pen/VwPyEEx) | [src](https://github.com/joselvelez/30submits30days/tree/main/d04) |
 | 05 | Cascading Dropdowns (data inside an array) | [codepen](https://codepen.io/jlvelez/pen/gOgvoRL) | [src](https://github.com/joselvelez/30submits30days/tree/main/d05) |
 | 06 | Read More / Read Less Toggle | [codepen](https://codepen.io/jlvelez/pen/wvgmgmv) | [src](https://github.com/joselvelez/30submits30days/tree/main/d06) |
+| 07 | Dropdowns with custom JavaScript Classes | [codepen](https://codepen.io/jlvelez/pen/qBRoeOJ) | [src](https://github.com/joselvelez/30submits30days/tree/main/d07) |
