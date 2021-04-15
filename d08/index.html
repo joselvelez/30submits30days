@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="inner-container">
+            <div class="top">
+                <h3>Dropdowns automatically built with a custom JavaScript Class</h3>
+                <p>This example is a continuation of working with select elements and JavaScript.</p>
+                <p>The data consists of two arrays: a list of airports and a list of schools.</p>
+                <p>Each group of arrays has been automatically populated</p>
+            </div>
+
+            <br>
+
+            <div class="middle airports">
+
+                <div class="select">
+                    <label for="continent">Continent</label>
+                    <select name="continent" id="continent">
+                    </select>
+                </div>
+
+                <div class="select">
+                    <label for="country">Country</label>
+                    <select name="country" id="country">
+                    </select>
+                </div>
+
+                <div class="select">
+                    <label for="region">Region</label>
+                    <select name="region" id="region">
+                    </select>
+                </div>
+
+                <div class="select">
+                    <label for="municipality">Municipality</label>
+                    <select name="municipality" id="municipality">
+                    </select>
+                </div>
+
+                <div class="select">
+                    <label for="airport_type">Airport Type</label>
+                    <select name="airport_type" id="airport_type">
+                    </select>
+                </div>
+
+                <div class="select">
+                    <label for="airport">Airport</label>
+                    <select name="airport" id="airport">
+                    </select>
+                </div>
+
+            </div>
+
+            <br>
+
+            <div class="middle schools">
+                <div class="select">
+                    <label for="state">State</label>
+                    <select name="state" id="state"></select>
+                </div>
+
+                <div class="select">
+                    <label for="city">City</label>
+                    <select name="city" id="city"></select>
+                </div>
+
+                <div class="select">
+                    <label for="school">City</label>
+                    <select name="school" id="school"></select>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="bottom">
+                <p>The dropdowns in this example are created using a custom JavaScript class.</p>
+                <br>
+                <p>This example is different from the Day 07 example, where each instance of a dropdown was manually created using the DropDown class.</p>
+                <p>Using this DropDown class, one can create and populate any number of select elements without needing to write a lot more code.</p>
+                <br>
+                <p>In this example, the dropdowns are automatically created based on a given array. See the const 'selectHeaders' in main.js.</p>
+                <p>The 'selectHeaders' array allows for three pieces of information:</p>
+                <ul>
+                    <li>a value for the select label</li>
+                    <li>a value that will be used for the select label as well as for the id and name of the select element</li>
+                    <li>an array of select elements (identified by their ids) that the select will depend on to cascade</li>
+                </ul>
+                <br>
+                <p>Even though the first item in the selectHeaders array is not currently being used, I left it there because you could potentially have each select element be automatically generated in the dom and the label would be populated from this value.</p>
+                <p>I chose not to because I would prefer to have flexibility in where the select elements are placed within the document.</p>
+                <br>
+                <p>The next step will be to provide a way for each dropdown to depend on others to filter data and cascade as selections are made.</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
