@@ -13,3 +13,4 @@ Practice HTML, CSS, JavaScript with 30 Small Examples in 30 Days
 | 08 | Automatic Dropdowns with custom JavaScript Classes | [codepen](https://codepen.io/jlvelez/pen/JjEvzjK) | [src](https://github.com/joselvelez/30submits30days/tree/main/d08) |
 | 09 | Cascading select built automatically with JavaScript Class | [codepen](https://codepen.io/jlvelez/pen/qBRQqJy) | [src](https://github.com/joselvelez/30submits30days/tree/main/d09) |
 | 10 | Generate a grid with JavaScript | [codepen](https://codepen.io/jlvelez/pen/poRQrqM) | [src](https://github.com/joselvelez/30submits30days/tree/main/d10) |
+| 11 | Generate a grid with random letters using JavaScript | [codepen](https://codepen.io/jlvelez/pen/GRrPoeQ) | [src](https://github.com/joselvelez/30submits30days/tree/main/d11) |
