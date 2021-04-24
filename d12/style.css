@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+p {
+    padding: 10px;
+    text-align: justify;
+}
+
+ol {
+    padding: 10px;
+    list-style-position: inside;
+}
+
+.container {
+    background-color: aliceblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.instructions {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 60%;
+    min-width: 500px;
+}
+
+.main {
+    background-color: rgb(229, 233, 236);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+button.board-selector{
+    color: #fff;
+    background-color: #4258f4;
+    padding: 12px 45px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 0px 3px;
+    box-shadow: 2px 3px 3px rgb(15, 14, 14);
+}
+
+button.unmatched {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #4258f4;
+    border-radius: 8px;
+    border: none;
+    margin: 2px;
+    padding: 12px;
+    min-width: 75px;
+    min-height: 75px;
+    box-shadow: 2px 3px 3px rgb(15, 14, 14);
+    cursor: pointer;
+}
+
+button.matched {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    background-color: #10d6a5;
+    border-radius: 8px;
+    border: none;
+    margin: 2px;
+    padding: 12px;
+    min-width: 75px;
+    min-height: 75px;
+    box-shadow: 2px 3px 3px rgb(15, 14, 14);
+}
+
+button.unmatched:hover {
+    background-color: #6471c2;
+}
+
+.game-state {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.displayTurns {
+    margin-top: 8px;
+    display: inline;
+}
+
+.hideTurns {
+    margin-top: 8px;
+    display: none;
+}
+
+.game-status {
+    margin-top: 8px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Grid of Letters</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <h1>Construct a grid of randomly selected letters from the alphabet</h1>
+
+        <div class="instructions">
+            <p>By selecting a grid size below, JavaScript code will generate a grid with the selected dimenions. The JavaScript code will then populate each grid with a randomly selected letter based on the following criteria:</p>
+            <ol>
+                <li>The letters randomly selected from the alphabet must be unique</li>
+                <li>The number of letters chosen must be equal to 1/2 of the maximum number of squares in the grid</li>
+                <li>Each letter chosen must be represented twice in the grid</li>
+                <li>The total number of letters (including the duplicates) represented in the grid must be equal to the total number of squares availabe in the grid</li>
+            </ol>
+            <h3>Select a grid size to begin the game:</h3><br>
+            <div>
+                <button value="4" id="four" class="board-selector">4x4</button>
+                <button value="6" id="six" class="board-selector">6x6</button>
+            </div>
+        </div>
+
+        <div class="main" id="main"></div>
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
