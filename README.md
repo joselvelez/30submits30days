@@ -15,3 +15,4 @@ Practice HTML, CSS, JavaScript with 30 Small Examples in 30 Days
 | 10 | Generate a grid with JavaScript | [codepen](https://codepen.io/jlvelez/pen/poRQrqM) | [src](https://github.com/joselvelez/30submits30days/tree/main/d10) |
 | 11 | Generate a grid with random letters using JavaScript | [codepen](https://codepen.io/jlvelez/pen/GRrPoeQ) | [src](https://github.com/joselvelez/30submits30days/tree/main/d11) |
 | 12 | Memory Game, Managing Game State | [codepen](https://codepen.io/jlvelez/pen/GRrPVyW) | [src](https://github.com/joselvelez/30submits30days/tree/main/d12) |
+| 13 | Memory Game, Completed | [codepen](https://codepen.io/jlvelez/pen/PoWgJjK) | [src](https://github.com/joselvelez/30submits30days/tree/main/d13) |
